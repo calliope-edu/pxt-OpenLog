@@ -107,7 +107,6 @@ namespace Qwiic_Openlog {
     }
 
     //% blockId="createFile" block="Erstelle die Datei %filename"
-    //% advanced=true
     export function createFile(filename: string): void {
         if (filename == '') return;
         sendCommandString(CREATEFILE, filename)
@@ -123,7 +122,6 @@ namespace Qwiic_Openlog {
     }
 
     //% blockId="openFile" block="Öffne die Datei zum Schreiben %filename"
-    //% advanced=true
     export function openFile(filename: string): void {
         if (filename == '') return;
         sendCommandString(OPENFILE, filename)
@@ -141,7 +139,6 @@ namespace Qwiic_Openlog {
     }
 
     //% blockId="readFile" block="Starte Lesen der Datei %filename"
-    //% advanced=true
     export function readFile(filename: string): void {
         if (filename == '') return;
         readBufferPtr = 0;
@@ -151,7 +148,6 @@ namespace Qwiic_Openlog {
     }
 
     //% blockId="readLine" block="Lese nächste Zeile der Datei"
-    //% advanced=true
     export function readLine(): string {
         let temp: Buffer = pins.createBuffer(I2C_BUFFER_LENGTH)
         let receivedstr = '';
