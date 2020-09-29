@@ -270,4 +270,9 @@ namespace Qwiic_Openlog {
         writeString(s + ":" + n.toString() + String.fromCharCode(CR) + String.fromCharCode(LF));
     }
 
+    //% blockId="writeStringValue" block="Schreibe in Datei Name %s | und Zeichenkette %z"
+    export function writeStringValue(s: string, z: string): void {
+        writeString(s + ":" + z + String.fromCharCode(CR) + String.fromCharCode(LF));
+    }
+
 }
