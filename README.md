@@ -7,6 +7,9 @@
 - [ ] Add a reference for your blocks here
 - [ ] Add "icon.png" image (300x200) in the root folder
 
+## License
+MIT
+
 ## Supported targets
 
 * for PXT/microbit
