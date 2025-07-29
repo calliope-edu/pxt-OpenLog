@@ -1,6 +1,6 @@
 You will find the English ReadMe at the end of the document.
 
-## pxt-calliope-sparkfunqwiicopenlog
+## pxt-calliope-openlog
 Erstellt von [Raik Andritschke](https://github.com/CalliTGS3)
 
 Qwiic OpenLog ist eine Platine, die das Speichern von Daten ermöglicht.
@@ -16,7 +16,8 @@ Am Calliope mini muss die Platine am Grove-Konnektor A0 (I2C) angeschlossen werd
 (The metadata above is needed for package search.)
 
 
-## pxt-calliope-sparkfunqwiicopenlog
+## pxt-calliope-openlog
+Made by [Raik Andritschke](https://github.com/CalliTGS3)
 
 Qwiic OpenLog is a board that allows for data storage.  
 With the help of this extension, data can be defined and systematically saved to an SD card using MakeCode.
