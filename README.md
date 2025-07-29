@@ -1,7 +1,7 @@
 You will find the English ReadMe at the end of the document.
 
 ## pxt-calliope-sparkfunqwiicopenlog
-Erstellt von [https://github.com/CalliTGS3](Raik Andritschke)
+Erstellt von [Raik Andritschke](https://github.com/CalliTGS3)
 Qwiic OpenLog ist eine Platine, die das Speichern von Daten ermöglicht.
 Mit Hilfe dieser Erweiterung können Daten in MakeCode definiert und geordnet auf einer SD-Karte gespeichert werden.
 Mehr zur Platine:
